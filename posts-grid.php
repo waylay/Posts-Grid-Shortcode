@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Posts Grid Shortcode
  * Plugin URI:        http://webcodesigner.com/project/posts-grid-shortcode/
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Displays your websites posts in a grid using the [posts-grid] shortcode
  * Version:           1.0.0
  * Author:            Cristian Ionel
  * Author URI:        http://webcodesigner.com/
