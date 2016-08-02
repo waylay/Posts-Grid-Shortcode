@@ -4,17 +4,29 @@
 	display: flex;
 	flex-wrap: wrap;
 }
-.overlay_text section .column{
-	align-items: center;
-	justify-content: center;
-}
+
 .posts_grid section .column {
 	margin: 10px;
 	padding: 10px 0;
 	min-width: 200px;
 	flex: 1;
 }
+.posts_grid section .column h3, .posts_grid section .column h4{
+	margin: 0;
+}
+.overlay_text section .column{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	min-width: 200px;
+	min-height: 200px;
+	flex-direction: column;
 
+}
+.overlay_text section .column.posts_grid_featured{
+	min-height: 400px;
+}
 .posts_grid .featured_image_container{
 	display: block;
 	min-height: 200px;
